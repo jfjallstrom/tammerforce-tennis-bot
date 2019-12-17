@@ -12,7 +12,7 @@ public func configure(_ config: inout Config, _ env: inout Environment, _ servic
     services.register(middlewareConfig)
     
     ///Registering bot as a vapor service
-    services.register(EchoBot.self)
+    services.register(SignupBot.self)
     
     ///Registering vapor routes
     let router = EngineRouter.default()

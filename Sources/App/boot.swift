@@ -10,7 +10,7 @@ import Telegrammer
 
 public func boot(_ app: Application) throws {
     
-    let botService = try app.make(EchoBot.self)
+    let botService = try app.make(SignupBot.self)
     
     /// Starting longpolling way to receive bot updates
     /// Or either use webhooks by calling `startWebhooks()` method instead
